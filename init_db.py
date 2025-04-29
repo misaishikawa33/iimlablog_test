@@ -4,7 +4,7 @@
 import sqlite3
 
 def init():
-    conn = sqlite3.connect('your_database.db')  # ファイル名は app.py などと一致させてください
+    conn = sqlite3.connect('example.db')  # ファイル名は app.py などと一致させてください
     c = conn.cursor()
 
     # users テーブルを作成
